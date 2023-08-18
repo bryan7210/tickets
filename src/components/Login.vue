@@ -5,6 +5,11 @@
         
         <div class="card" id="card2">
           <img src="../img/admin.jpg" alt="" class="img-2" id="imagen">
+          <h1 class="h1">Rol</h1>
+          <select name="rol" id="rol">
+            <option value="Administrador">Administrador</option>
+            <option value="Vendedor">Vendedor</option>
+          </select>
           <h1 class="h1">Nombre</h1>
           <input type="text" v-model="username" id="nombre">
           <h1 class="h1">Contraseña</h1>
@@ -52,8 +57,8 @@ let UsuarioStore  =  useUsuarioStore()
   margin-top:10px;
 }
 #login {
-  width: 800px;
-  height: 600px;
+  width: 850px;
+  height: 700px;
   margin: 10px;
   padding: 10px;
   background-color: #ffffff;
